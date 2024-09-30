@@ -4,7 +4,7 @@ There are 4 categories in which two pointer problems fall, and below are those c
 ### 1. Running from both ends of an array:
 The first type of problems are, having two pointers at left and right end of array, then moving them to the center while processing something with them.
 
-- #### Two Sum problems:
+#### Two Sum problems:
  * https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
  * https://leetcode.com/problems/3sum/
  * https://leetcode.com/problems/4sum/
@@ -15,16 +15,16 @@ The first type of problems are, having two pointers at left and right end of arr
  * https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/
  * https://leetcode.com/problems/3sum-with-multiplicity/
 
-- #### Trapping Water:
+#### Trapping Water:
  * https://leetcode.com/problems/trapping-rain-water/
  * https://leetcode.com/problems/container-with-most-water/
 
-- #### Next Permutation:
+#### Next Permutation:
  * https://leetcode.com/problems/next-permutation/
  * https://leetcode.com/problems/next-greater-element-iii/
  * https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/
 
-- #### Reversing / Swapping:
+#### Reversing / Swapping:
  * https://leetcode.com/problems/valid-palindrome/
  * https://leetcode.com/problems/reverse-string/
  * https://leetcode.com/problems/reverse-vowels-of-a-string/
@@ -42,7 +42,7 @@ The first type of problems are, having two pointers at left and right end of arr
  * https://leetcode.com/problems/reverse-words-in-a-string/
  * https://leetcode.com/problems/reverse-words-in-a-string-iii/
 
-- #### Others:
+#### Others:
  * https://leetcode.com/problems/bag-of-tokens/
  * https://leetcode.com/problems/di-string-match/
  * https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/
@@ -53,7 +53,7 @@ The first type of problems are, having two pointers at left and right end of arr
 ### 2. Slow and fast pointers: 
 Next type is using two pointers with different speed of movement. Typically they starts from the left end, then the first pointer advances fast and give some feedback to the slow pointer and do some calculation.
 
-- #### Linked List Operations:
+#### Linked List Operations:
  * https://leetcode.com/problems/linked-list-cycle/
  * https://leetcode.com/problems/linked-list-cycle-ii/
  * https://leetcode.com/problems/remove-nth-node-from-end-of-list/
@@ -61,11 +61,11 @@ Next type is using two pointers with different speed of movement. Typically they
  * https://leetcode.com/problems/reorder-list/
  * https://leetcode.com/problems/palindrome-linked-list/
 
-- #### Cyclic Detection:
+#### Cyclic Detection:
  * https://leetcode.com/problems/find-the-duplicate-number/
  * https://leetcode.com/problems/circular-array-loop/
 
-- #### Sliding Window/Caterpillar Method:
+#### Sliding Window/Caterpillar Method:
  *  https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/
  * https://leetcode.com/problems/find-k-th-smallest-pair-distance/
  * https://leetcode.com/problems/moving-stones-until-consecutive-ii/
@@ -73,21 +73,21 @@ Next type is using two pointers with different speed of movement. Typically they
  * https://leetcode.com/problems/count-binary-substrings/
  * https://leetcode.com/problems/k-diff-pairs-in-an-array/
 
-- #### Rotation:
+#### Rotation:
  * https://leetcode.com/problems/rotating-the-box/
  * https://leetcode.com/problems/rotate-array/
 
-- #### String:
+#### String:
  * https://leetcode.com/problems/string-compression/
  * https://leetcode.com/problems/last-substring-in-lexicographical-order/
 
-- #### Remove Duplicate:
+#### Remove Duplicate:
  * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
  * https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
  * https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
  * https://leetcode.com/problems/duplicate-zeros/
 
-- #### Others:
+#### Others:
  * https://leetcode.com/problems/statistics-from-a-large-sample/
  * https://leetcode.com/problems/partition-labels/
  * https://leetcode.com/problems/magical-string/
@@ -99,17 +99,17 @@ Next type is using two pointers with different speed of movement. Typically they
 In this category, you will be given 2 arrays or lists, then have to process them with individual pointers.
 image
 
-- #### Sorted arrays:
+#### Sorted arrays:
  * https://leetcode.com/problems/merge-sorted-array/
  * https://leetcode.com/problems/heaters/
  * https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
 
-- #### Intersections/LCA like:
+#### Intersections/LCA like:
  * https://leetcode.com/problems/intersection-of-two-linked-lists/
  * https://leetcode.com/problems/intersection-of-two-arrays/
  * https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
-- #### SubString:
+#### SubString:
  * https://leetcode.com/problems/implement-strstr/
  * https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
  * https://leetcode.com/problems/long-pressed-name/
@@ -118,17 +118,17 @@ image
  * https://leetcode.com/problems/camelcase-matching/
  * https://leetcode.com/problems/expressive-words/
 
-- #### Median Finder: 
+#### Median Finder: 
  * https://leetcode.com/problems/find-median-from-data-stream/
 
-- #### Meet-in-the-middle / Binary Search:
+#### Meet-in-the-middle / Binary Search:
  * https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/
  * https://leetcode.com/problems/closest-subsequence-sum/
  * https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/
  * https://leetcode.com/problems/3sum-closest/
  * https://leetcode.com/problems/valid-triangle-number/
 
-- #### Others:
+#### Others:
  * https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
  * https://leetcode.com/problems/most-profit-assigning-work/
  * https://leetcode.com/problems/largest-merge-of-two-strings/
@@ -137,8 +137,8 @@ image
 ### 4. Split & Merge of an array / Divide & Conquer:
 The last one is similar to previous category but there is one thing is added. First, you need to split the given list into 2 separate lists and then do two pointers approach to merge or unify them. There aren't many tasks here.
 
-- #### Partition:
+#### Partition:
  * https://leetcode.com/problems/partition-list/
 
-- #### Sorting:
+#### Sorting:
  * https://leetcode.com/problems/sort-list/

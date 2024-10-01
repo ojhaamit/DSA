@@ -24,7 +24,14 @@ public class TwoSumTest {
     @ParameterizedTest
     @MethodSource("testDataProvider")
     public void testBruteForceSolution(int[] expectedSolution, int[] nums, int targetSum) {
+        // Measure the latency
+        long startTime = System.nanoTime();
         int[] solution = twoSum.twoSumBruteForce(nums, targetSum);
+        long endTime = System.nanoTime();
+
+        // Calculate time taken in milliseconds
+        long duration = (endTime - startTime) / 1000000; // converting to milliseconds
+        System.out.println("Execution Time: " + duration + " ms");
 
         assertArrayEquals(expectedSolution, solution);
     }
@@ -32,8 +39,14 @@ public class TwoSumTest {
     @ParameterizedTest
     @MethodSource("testDataProvider")
     public void testHashMapSolution(int[] expectedSolution, int[] nums, int targetSum) {
+        // Measure the latency
+        long startTime = System.nanoTime();
         int[] solution = twoSum.twoSumHashMap(nums, targetSum);
+        long endTime = System.nanoTime();
 
+        // Calculate time taken in milliseconds
+        long duration = (endTime - startTime) / 1000000; // converting to milliseconds
+        System.out.println("Execution Time: " + duration + " ms");
         assertArrayEquals(expectedSolution, solution);
     }
 

@@ -24,14 +24,30 @@ public class ThreeSumTest {
     @ParameterizedTest
     @MethodSource("testDataProvider")
     public void testThreeSumBruteForceSolution(List<List<Integer>> expectedSolution, int[] nums) {
+        // Measure the latency
+        long startTime = System.nanoTime();
         List<List<Integer>> solution = threeSum.threeSumBruteForceApproach(nums);
+        long endTime = System.nanoTime();
+
+        // Calculate time taken in milliseconds
+        long duration = (endTime - startTime) / 1000000; // converting to milliseconds
+        System.out.println("Execution Time: " + duration + " ms");
+
         assertEquals(expectedSolution, solution);
     }
 
     @ParameterizedTest
     @MethodSource("testDataProvider")
     public void testThreeSumHashMapSolution(List<List<Integer>> expectedSolution, int[] nums) {
+        // Measure the latency
+        long startTime = System.nanoTime();
         List<List<Integer>> solution = threeSum.threeSumHashMapApproach(nums);
+        long endTime = System.nanoTime();
+
+        // Calculate time taken in milliseconds
+        long duration = (endTime - startTime) / 1000000; // converting to milliseconds
+        System.out.println("Execution Time: " + duration + " ms");
+
         assertEquals(expectedSolution, solution);
     }
 

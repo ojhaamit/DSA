@@ -48,15 +48,15 @@ public class TwoSum {
             return new int[0];
         }
 
-        Map<Integer, Integer> onePassMap = new HashMap<>();
+        Map<Integer, Integer> visitedNums = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-            if (onePassMap.containsKey(complement)) {
-                return new int[] {onePassMap.get(complement), i};
+            if (visitedNums.containsKey(complement)) {
+                return new int[] {visitedNums.get(complement), i};
             }
 
-            onePassMap.put(nums[i], i);
+            visitedNums.put(nums[i], i);
         }
 
         // Return an empty array if no solution is found

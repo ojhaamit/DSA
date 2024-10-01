@@ -40,10 +40,10 @@ public class TwoSumTest {
     public static Stream<Arguments> testDataProvider() {
         return Stream.of(
                 Arguments.of(new int[]{0, 1}, new int[]{2, 7, 11, 15}, 9),
-                Arguments.of(new int[]{1, 2}, new int[]{3, 2, 4}, 6),
-                Arguments.of(new int[]{0, 1}, new int[]{3, 3}, 6),
-                Arguments.of(new int[0], new int[]{3, 3}, 7),
-                Arguments.of(new int[0], new int[]{ }, 1)
+                Arguments.of(new int[] {1, 2}, new int[] {3, 2, 4}, 6),
+                Arguments.of(new int[] {0, 1}, new int[] {3, 3}, 6),
+                Arguments.of(new int[0], new int[] {3, 3}, 7),
+                Arguments.of(new int[0], new int[] { }, 1)
         );
     }
 }

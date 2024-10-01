@@ -4,7 +4,7 @@ There are 4 categories in which two pointer problems fall, and below are those c
 ### 1. Running from both ends of an array:
 The first type of problems are, having two pointers at left and right end of array, then moving them to the center while processing something with them.
 
-#### Two Sum problems:
+#### Sum problems:
  * https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
  * https://leetcode.com/problems/3sum/
  * https://leetcode.com/problems/4sum/
